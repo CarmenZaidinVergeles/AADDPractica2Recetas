@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/ivReceta"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre"
+        android:id="@+id/tvNombreReceta" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Instrucciones"
+        android:id="@+id/tvInstrucciones" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvIngredientes"
+        android:text="Ingredientes" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Recetario1</string>
+    <string name="title_activity_actividad_recetas">ActividadRecetas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_alta">Alta</string>
+    <string name="borrar">Borrar receta</string>
+    <string name="edit">Editar receta</string>
+</resources>
